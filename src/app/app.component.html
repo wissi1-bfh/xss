@@ -1,0 +1,5 @@
+<label for="username">Name: </label>
+<input id="username" [(ngModel)]="username"  (ngModelChange)="onChange()" placeholder="Name">
+<p>{{ username }}</p>
+<p [innerHtml] = dangerousScript></p>
+<p [innerHtml] = trustedScript></p>
